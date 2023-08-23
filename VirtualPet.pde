@@ -1,3 +1,4 @@
+<title> Virtual Pet </title>
 void setup()
 {
   size(1000, 1000);
