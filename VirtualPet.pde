@@ -1,9 +1,11 @@
 void setup()
 {
   size(1000, 1000);
-  background(255, 255, 255);
+  background(0, 0, 255);
 }
 void draw(){
+  fill(255, 255, 255);
+  rect(0, 875, 1000, 125);
   fill(1, 1, 1);
   ellipse(500, 600, 350, 550);
   ellipse(500, 250, 250, 250);
@@ -23,4 +25,14 @@ void draw(){
   stroke(1);
   triangle(450, 275, 500, 225, 550, 275);
   triangle(450, 275, 500, 300, 550, 275);
+  noStroke();
+  fill(255, 255, 255);
+  ellipse(550, 50, 10, 10);
+  ellipse(40, 50, 10, 10);
+  ellipse(90, 800, 10, 10);
+  ellipse(200, 50, 10, 10);
+  ellipse(700, 850, 10, 10);
+  ellipse(900, 500, 10, 10);
+  ellipse(50, 400, 10, 10);
+  ellipse(900, 700, 10, 10);
 }
