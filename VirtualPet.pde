@@ -35,4 +35,6 @@ void draw(){
   ellipse(900, 500, 10, 10);
   ellipse(50, 400, 10, 10);
   ellipse(900, 700, 10, 10);
+  ellipse(700, 10, 10, 10);
+  ellipse(800, 200, 10, 10);
 }
